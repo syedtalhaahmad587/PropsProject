@@ -1,4 +1,4 @@
-.cards {
+/* .cards {
   width: 100%;
   height: auto;
   
@@ -66,8 +66,8 @@ button {
   outline: none;
   border: 1px solid black ;
   cursor: pointer;
-}  
-*{
+}   */
+/* *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -79,18 +79,18 @@ button {
  
 }
 .container-contain {
-  width: 450px;
+  width: 450px; */
   /* background-color: #fff; */
-  margin: auto;
-  padding: 12px 30px;
+  /* margin: auto;
+  padding: 12px 30px; */
   /* border: 1px solid; */
   /* box-shadow: 0 2px 8px rgb(0 0 0 / 16%); */
   /* border-radius: 15px; */
-  transition: .4s;
+  /* transition: .4s;
   margin-top: 40px;
-}
+} */
 
-h2{
+/* h2{
 
 text-align: center;
 margin-bottom: 0px 20px ;
@@ -161,4 +161,39 @@ font-size: 14px;
   border-radius: 4px;
   cursor: pointer;
   margin-right: 8px;
+} */
+.SelectInput {
+  text-align: center;
+}
+.tableStyle {
+  margin-top: 40px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.headStyle tr th {
+  border: 1px solid;
+  padding: 6px 8px;
+  background: #1986d3;
+  color: white;
+}
+.wrap_div1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 18px 52px 0px 25px;
+}
+
+.settbody td   {
+ border: 1px solid #fff;
+ background: cornflowerblue;
+ color: black;
+  padding: 6px 0px;
+  text-align: center;
+}
+.SelectInput select {
+  padding: 6px 60px 6px 3px;
+  margin: 11px 0px 0px 0px;
+  color: cornflowerblue;
+  background: black;
 }

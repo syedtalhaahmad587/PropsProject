@@ -1,11 +1,11 @@
 
 import './App.css';
-import ShowCart from "./CartShow"
+import CallApi from "./CallApi";
 
 function App() {
   return (
     <>
-    <ShowCart/>
+      <CallApi/> 
     </>
   );
 }
