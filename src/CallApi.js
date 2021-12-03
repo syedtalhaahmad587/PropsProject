@@ -24,8 +24,7 @@ export const CallApi = () => {
     //    }
 
    const change_input = (value , property) => {
-    const updateItem = dataSave.filter((curEleme) => curEleme.state === value )
-    // console.log({updateItem})
+    const updateItem = dataSave.filter((curEleme) => curEleme.state === value)
     setReviewdata(updateItem)
     setchangedata({...changeData , [property] : value})
    }
@@ -34,13 +33,15 @@ export const CallApi = () => {
         <div>
            <div  className="SelectInput">
            <select name="select" onChange={(e)=>change_input(e.target.value , "value")}  id="">
-            <option value="Select">Select</option>
+          
+           
                {dataSave.map((item, index) => {
                    return (
                  <option key={index} value={item.value}>{item.state}</option>    
+                
                  )
                }) }
-               
+               <option value="Select" selected>Select</option>
            </select>
            </div>
            <table className="tableStyle">
